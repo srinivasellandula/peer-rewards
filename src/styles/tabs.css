@@ -1,0 +1,47 @@
+.tabs-container {
+    max-width: 600px;
+    display: grid;
+    max-width: 632px;
+    height: 350px;
+    display: grid;
+    border-bottom: 2px solid black;
+    border: 1px solid black;
+    padding: 26px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+  }
+  .tabs {
+    padding-top: 20px;
+  }
+  .nav-tabs {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-link.active {
+    border-bottom: 2px solid black;
+  }
+  
+  .tab-content {
+  padding: 2rem;
+  padding-top: 0;
+  }
+  
+  .tab-pane h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  }
+  
+  .tab-pane p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  }

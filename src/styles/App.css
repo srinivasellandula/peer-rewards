@@ -1,0 +1,100 @@
+ 
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.profile-icon {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  background-color: grey;
+}
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.rewards-main-container {
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  background-color: #e5e1d1;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+h1 {
+  margin-bottom: 50px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+    background: #248db8;
+    color: white;
+    font-weight: bold;
+    border: 1px #25ace4;
+    text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 500px;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+input, textarea {
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+input[type="text"], textarea {
+  width: 100%;
+}
+
+.fa-plus {
+  margin-right: 5px;
+}
+
+.text-danger {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  margin: 50px 0;
+}
+
+.rewards-container {
+  display: flex;
+  gap: 100px;
+  border: 1px solid black;
+  width: 77%;
+  padding: 30px;
+  border-radius: 12px;
+  background: white;
+}
+.alignCenter {
+  text-align: center;
+}
+.adjust-position {
+ float: right;
+}
